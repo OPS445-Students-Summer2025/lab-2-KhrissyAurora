@@ -1,0 +1,46 @@
+test_0 (__main__.lab2a)
+[Lab 2] - [Investigation 1] - [Part 1] - variables & printing - Test for file creation: ./lab2a.py ... ok
+test_1 (__main__.lab2a)
+[Lab 2] - [Investigation 1] - [Part 1] - variables & printing - Test for errors running: ./lab2a.py ... ok
+test_2 (__main__.lab2a)
+[Lab 2] - [Investigation 1] - [Part 1] - variables & printing - Test for correct shebang line: ./lab2a.py ... ok
+test_3 (__main__.lab2a)
+[Lab 2] - [Investigation 1] - [Part 1] - variables & printing - Test for correct output: ./lab2a.py ... ok
+test_0 (__main__.lab2b)
+[Lab 2] - [Investigation 1] - [Part 1] - using input() function - Test for file creation: ./lab2b.py ... ok
+test_1 (__main__.lab2b)
+[Lab 2] - [Investigation 1] - [Part 1] - using input() - Test for errors with sending input "Jon" "20": ./lab2b.py ... ok
+test_2 (__main__.lab2b)
+[Lab 2] - [Investigation 1] - [Part 1] - using input() - Test for correct shebang line: ./lab2b.py ... ok
+test_3 (__main__.lab2b)
+[Lab 2] - [Investigation 1] - [Part 1] - using input() - Test output with sending input "Jon" "20": ./lab2b.py ... ok
+test_4 (__main__.lab2b)
+[Lab 2] - [Investigation 1] - [Part 1] - using input() - Test output with sending input "Jen" "25": ./lab2b.py ... ok
+test_0 (__main__.lab2c)
+[Lab 2] - [Investigation 1] - [Part 2] - command line arguments - Test for file creation: ./lab2c.py ... FAIL
+
+======================================================================
+FAIL: test_0 (__main__.lab2c)
+[Lab 2] - [Investigation 1] - [Part 2] - command line arguments - Test for file creation: ./lab2c.py
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "./CheckLab2.py", line 129, in test_0
+    self.assertTrue(os.path.exists('./lab2c.py'), msg=error_output)
+AssertionError: False is not true : your file cannot be found (HINT: make sure your file are in the correct directory)
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.193s
+
+FAILED (failures=1)
+OPS445 Lab Report - System Information for running ./CheckLab2.py
+=================================================================
+    User login name: kalmodal
+    Git Email: kalmodal@myseneca.ca
+    Linux system name: mtrx-node03pd.dcm.senecacollege.ca
+    Python executable: /usr/bin/python3
+    Python version:  3.6.8 (default, Nov 14 2023, 16:29:52) 
+[GCC 4.8.5 20150623 (Red Hat 4.8.5-44)]
+    OS Platform: linux
+    Working Directory: /home/kalmodal/ops445/lab2
+    Start at: Fri May 23 11:26:51 2025
+=================================================================
